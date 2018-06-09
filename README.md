@@ -10,16 +10,26 @@ Exemption of a specific element is not expected - the allocator release all memo
 Implemented own container, which by analogy with stl containers is parametrized by the allocator.
 
 The application code contain the following calls:
+
 • creating an instance of std::map
+
 • filling with 10 elements, where the key is a number from 0 to 9, and the value - factorial of a key
+
 • creating an instance of std::map with a new allocator limited to 10 elements
+
 • filling with 10 elements, where the key is a number from 0 to 9, and the value - factorial of a key
-• display all values ​​(key and value are separated by a space) stored in a container
+
+• display all values (key and value are separated by a space) stored in a container
+
 • creating an instance of its container to store int
+
 • filling with 10 elements from 0 to 9
+
 • creating an instance of its container to store int with the new allocator with limited 10 elements
+
 • filling with 10 elements from 0 to 9
-• Display all values ​​stored in the container
+
+• Display all values stored in the container
 
 **Example of Dockerfile**
 
